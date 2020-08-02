@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/popular_tab"
+        android:enabled="true"
+        android:title="@string/popular">
+
+    </item>
+    <item
+        android:id="@+id/search_tab"
+        android:enabled="true"
+        android:title="@string/search">
+
+    </item>
+    <item
+        android:id="@+id/my_lists_tab"
+        android:enabled="true"
+        android:title=""
+        app:itemIconSize="50dp"
+        app:elevation="0dp"
+        app:itemIconTint="@android:color/white"
+        android:icon="@drawable/icon_my_lists">
+    </item>
+
+
+
+</menu>
