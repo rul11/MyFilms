@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             when(item.itemId){
 
                 R.id.popular_tab ->{
-                    val popularFilmsFragment = PopularFilmsFragment()
+                    val popularFilmsFragment = DetailFilmFragment()
                     createFragment(popularFilmsFragment)
                     true
                 }
