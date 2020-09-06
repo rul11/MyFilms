@@ -47,7 +47,6 @@ class SearchFilmsFragment : Fragment() {
 
         })*/
 
-
         val view = binding.root
 
         binding.edtxSearchBar.addTextChangedListener(object : TextWatcher {
