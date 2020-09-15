@@ -5,22 +5,25 @@
     <item
         android:id="@+id/popular_tab"
         android:enabled="true"
-        android:title="@string/popular">
+        app:itemIconSize="50dp"
+        android:title="@string/popular"
+        android:icon="@drawable/icon_popular">
 
     </item>
     <item
         android:id="@+id/search_tab"
         android:enabled="true"
-        android:title="@string/search">
+        app:itemIconSize="50dp"
+        android:title="@string/search"
+        android:icon="@drawable/icon_search">
 
     </item>
     <item
         android:id="@+id/my_lists_tab"
         android:enabled="true"
-        android:title=""
         app:itemIconSize="50dp"
-        app:elevation="0dp"
         app:itemIconTint="@android:color/white"
+        android:title="@string/my_lists"
         android:icon="@drawable/icon_my_lists">
     </item>
 

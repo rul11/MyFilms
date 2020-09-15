@@ -10,6 +10,12 @@ interface FilmsAPI{
 
     @GET("search/movie")
     fun searchMovies(@Query("api_key") key:String,@Query("query") query:String): Call<MovieResult>
+
     @GET("movie")
     fun getDetaikMovie(@Query("movie_id") movieId:String, @Query( "api_key") key:String): Call<Result>
+
+    @GET("movie/popular")
+    fun getPopularFilms(@Query("api_key") key:String, @Query("page")page:String):Call<MovieResult>
+
+
 }

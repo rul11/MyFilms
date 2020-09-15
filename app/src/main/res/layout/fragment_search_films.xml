@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@android:color/black"
+    android:background="#181C20"
     tools:context=".SearchFilmsFragment">
 
   <FrameLayout
       android:layout_width="match_parent"
       android:layout_height="55dp"
-      android:background="#4d515a">
+      android:background="@android:color/black">
 
 
       <EditText

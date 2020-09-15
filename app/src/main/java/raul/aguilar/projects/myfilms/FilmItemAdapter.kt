@@ -38,7 +38,6 @@ class FilmItemAdapter(val listFilms:MovieResult, private val listener:(Result)->
 
         private val binding  = ViewFilmItemSearchBinding.bind(view)
 
-
         fun bind(item:Result) {
 
             with(binding) {
