@@ -82,7 +82,7 @@ class SearchFilmsFragment : Fragment() {
                                 val adapter = FilmItemAdapter(movieResult, {
 
                                     val bundle = Bundle()
-                                    bundle.putString("urlMovie", it.poster_path)
+                                    bundle.putInt("idFilm", it.id)
 
                                     val fragment = DetailFilmFragment()
                                     fragment.arguments = bundle
